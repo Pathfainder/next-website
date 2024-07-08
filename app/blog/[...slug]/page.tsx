@@ -153,7 +153,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="space-y-1 text-center">
               <dl className="space-y-10">
                 <div>
-                  <dt className="sr-only">Published on</dt>
+                  <dt className="sr-only">Publié le</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={date}>{formatDate(date)}</time>
                   </dd>
@@ -166,7 +166,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </header>
           <div className="grid-rows-[auto_1fr]  xl:grid xl:grid-cols-12 xl:gap-x-6">
             <dl className="col-span-12 flex items-center  justify-center pb-10 pt-10 xl:pt-3">
-              <dt className="sr-only">Authors</dt>
+              <dt className="sr-only">Auteurs</dt>
               <dd>
                 <ul className="flex flex-wrap justify-center gap-4 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
                   {authorDetails.map((author) =>
@@ -185,7 +185,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                           />
                         )}
                         <dl className="whitespace-nowrap text-sm font-medium leading-5">
-                          <dt className="sr-only">Name</dt>
+                          <dt className="sr-only">Nom</dt>
                           <dd className="text-gray-900 dark:text-gray-100">
                             {author.name}
                           </dd>
@@ -216,10 +216,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </div>
               <div className="mt-10 pb-6 pt-6 text-center text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(path)} rel="nofollow">
-                  Discuss on Twitter
+                  Discter sur Twitter
                 </Link>
                 {` • `}
-                <Link href={editUrl(filePath)}>View on GitHub</Link>
+                <Link href={editUrl(filePath)}>Voir sur GitHub</Link>
               </div>
               <Comments />
             </div>
@@ -247,9 +247,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     {prev && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Previous Article
+                          Article précédent
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-primary-500 hover:text-purple-600 dark:hover:text-purple-400">
                           <Link href={`/${prev.path}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -257,9 +257,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     {next && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Next Article
+                          Article suivant
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-primary-500 hover:text-purple-600 dark:hover:text-purple-400">
                           <Link href={`/${next.path}`}>{next.title}</Link>
                         </div>
                       </div>
@@ -271,10 +271,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <Link
                   type="button"
                   href={`/blog`}
-                  className="w-full rounded-lg  bg-primary-600 p-3 text-center font-bold text-gray-200 hover:scale-110"
+                  className="w-full rounded-lg  bg-purple-950 p-3 text-center font-bold text-gray-200 hover:scale-110"
                   aria-label="Back to the blogs"
                 >
-                  &larr; Back to the blog
+                  &larr; Retour au blog
                 </Link>
               </div>
             </footer>

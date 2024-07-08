@@ -63,7 +63,7 @@ const DarkModeSwitch = ({ variant = "icon" }: DarkModeSwitchProps) => {
 
   return (
     <GlowDiv>
-      <div className="rounded bg-gray-800 p-px leading-[0]  hover:bg-gradient-to-r  hover:from-blue-600 hover:to-cyan-600 dark:bg-gray-200">
+      <div className="rounded bg-gray-800 p-px leading-[0]  hover:bg-gradient-to-r  hover:from-red-200 hover:to-purple-800 dark:bg-gray-200">
         <button
           onClick={() =>
             setTheme(

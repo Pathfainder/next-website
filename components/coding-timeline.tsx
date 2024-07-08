@@ -15,23 +15,29 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 flex flex-col items-start text-lg font-semibold text-gray-900 dark:text-white sm:flex-row sm:items-center">
-          Software Engineer - Frontend Focused
+          Consultant IA, programmeur, solution d'automatisation.
           <span className="relative my-2 mr-2 flex min-w-[105px]  items-center rounded bg-blue-600 px-2.5 py-0.5 text-sm font-medium text-white dark:bg-blue-600 dark:text-white sm:my-0 sm:ml-3">
             <span className="relative mr-2 flex size-3">
               <span className="absolute inline-flex size-full animate-ping rounded-full bg-lime-400 opacity-75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-lime-500"></span>
             </span>
-            Current Role
+            Aujourd'hui
           </span>
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2023
+          2024 -
+        </time>
+        <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
+          other
         </time>
         <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-          During my time at Frazer-Nash I worked on my passion for frontend
-          development. This lead me to take on a new role this year at Imparta
-          as a Software Engineer, where I am able to focus on frontend
-          development and continue to develop my skills in this area.
+          ...
+        </p>
+        <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
+          MILLENIANCE PATRIMOINE
+        </time>
+        <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
+          Automatisation de traitements des données comptables : <br/>- Extraction <br/>- Contrôle <br/>- Classement <br/>- Génération rapports et données excel.
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -47,17 +53,16 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 flex flex-col items-start text-lg font-semibold text-gray-900 dark:text-white sm:flex-row sm:items-center">
-          Senior Engineer, Cloud Technologies Group
+        AUTODIDACTE
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2022
+          2004 - 2024
         </time>
         <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-          I started work as an Engineer at Frazer-Nash, where I was part of the
-          Cloud Technologies group. This role allowed me to further develop my
-          skills in software engineering and explore my passion for
-          problem-solving and creativity in the rapidly changing field of
-          technology.
+        Apprentissage en continu sur mon temps libre, HTML, CSS, Tailwind, Typescript, Python, Next.js, cloud..<br/><br/>
+        Spécialisation Intelligence artificielle :<br/>- Générative de texte : Chatbots, Agents, fonctions, RAG, Recherche documentaires poussées et générations de rapports conforme ADA, Fine tuning...<br/>
+        - Générative d'images : Stable diffusion, ComfyUI.
+        <br/><br/>Certifications :<br/>- <br/>- <br/><br/>En cours :<br/>- <br/>- <br/><br/>
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -73,16 +78,16 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Accountant to Engineer
+          CBRE GWS / Becton Dickinson - Pont de Claix
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2021
+          2020 - 2024
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I made the switch to a developer job, leaving my previous career in
-          accounting to pursue my passion for coding full-time. This decision
-          allowed me to fully immerse myself in the world of software
-          engineering and explore new technologies and approaches.
+        <br/>Chef d'équipe FM : <br/>- Gestion d'équipe pour réalisation de tout travaux de maintenance des batiments et infrastructures .
+          <br/><br/>Responsable maintenance motopompes et réseaux sprinkler :<br/>- Maintenance mécanique, tournées d'inspection, apport d'améliorations.
+          <br/><br/>Technicien Environnement : <br/>- Gestion de l'evacuation et du transports routiers de toutes les matières dangeureuses (labos, R&D, usine) du site conformément à l'ADR.
+        
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -98,17 +103,14 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Accountant
+          OXYSHOP
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2019 - 2021
+          2018 - 2020
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I was tasked with helping the IT team at an accounting firm create a
-          web app to improve workflows in creating reports, while I was
-          bookeeping. I was initially brought on to test the app and provide
-          feedback on what features to add, but as I worked on the project, I
-          found myself becoming increasingly interested in coding.
+        Opérateur/programmeur ISO sur deux CNC 3 axes :<br/>- Fabrication de pièces selon quotes et suivi de schémas, apprentissage du language machine ISO.<br/>- Création de programmes pour pièces personnalisées.<br/>
+          <br/><br/>Opérateur/maintenance découpe laser acier et OXY-coupage. <br/>- Découpe de pièces selon quotes et maintenance machine.
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -124,17 +126,13 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Durham University - Behavioural Finance Dissertation
+          Interim - Emplois industrie
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2019
+          2012-2017
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I wrote a dissertation on behavioral finance, which gave me insights
-          into user experience and design. This sparked my interest in the
-          intersection between psychology and technology, and I began to explore
-          opportunities in software engineering that allowed me to incorporate
-          this knowledge into my work.
+          Nouveaux horizons, nouveaux projets, emplois dans tout corps de metiers, livraison, manutention, ouvrier de production.
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -151,16 +149,14 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Durham University - BA (Hons) Accounting and Finance
+          Quetes de sensations différentes et de nouveaux horizons.
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2016 - 2019
+          2010 - 2012
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I started university to study Accounting and Finance, where I
-          continued to pursue my passion for coding as a hobby. This provided me
-          with a well-rounded education and a strong foundation in business and
-          financial principles.
+          Découverte du monde et de ses occupants, projets professionnels et personnels, 
+          voyages en Angleterre, Italie, Qatar, Chine, Thaïlande, Laos... 
         </p>
       </li>
       <li className="mb-10 ml-8">
@@ -176,18 +172,14 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          YouTube - Tech Tutorials
+          Divers domaines éxplorés
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2011 - 2015
+          2005 - 2010
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I started a YouTube channel to post tutorials on completing difficult
-          levels on an iPad app. Over time, my channel grew to include a wide
-          variety of Mac-based tutorials, with two of my videos amassing over
-          40,000 views. Despite the tutorials being rather out of date, the
-          channel did its best over COVID-19, as people were stuck at home and
-          looking for ways to improve their computer skills.
+          Multiple projets professionnels en freelance : Webdesigner, content manager, infographiste, monteur/intégrateur vidéo, 
+          illustrateur de rendus architecturaux, dessinateur/Concepteur 3D...
         </p>
       </li>
       <li className="ml-8">
@@ -204,16 +196,15 @@ export function CodingTimeline() {
           </svg>
         </span>
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Discovering Software Engineering
+          Découverte du dévellopement web, du design et de la photographie
         </h3>
         <time className="text-md my-2  block font-bold leading-none text-gray-600 dark:text-gray-200">
-          2011
+          2004
         </time>
         <p className="text-base font-normal text-gray-700 dark:text-gray-400">
-          I began developing Java plugins for Minecraft, which quickly gained
-          popularity and amassed over 100,000 downloads. This experience sparked
-          my interest in coding and set me on a path towards a career in
-          software engineering.
+          J'ai commencé par le dévellopement web, l'infographie et la modélisation 3D, 
+          la mise en page pour impression de brochures et visuels de communications,
+          retouches d'images professionnelles et création d'illustrations, logos, sites webs... 
         </p>
       </li>
     </ol>

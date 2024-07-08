@@ -18,9 +18,8 @@ const inter = Inter({
 })
 
 const jetbrains = localFont({
-  src: "../public/fonts/JetBrainsMono-Regular.woff2",
+  src: "../public/fonts/CalSans-SemiBold.ttf",
   variable: "--font-code",
-  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -68,7 +67,7 @@ export const metadata: Metadata = {
     title: siteMetadata.title,
     description: siteMetadata.description,
     images: [`/og.png`],
-    creator: "@jollyshopland",
+    creator: "@pathfainder_",
   },
   icons: {
     icon: "/favicon.ico",

@@ -13,6 +13,7 @@ import { Mdx } from "@/components/mdx/mdx"
 import ProjectCard from "@/components/project-card"
 import SocialIcon from "@/components/social-icons"
 
+
 export const metadata = {
   title: "About",
 }
@@ -36,7 +37,7 @@ export default function About() {
     <div className="container divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          About me
+          A propos de ma Pomme :
         </h1>
       </div>
       <div className=" items-start space-y-2 pt-3 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -77,30 +78,37 @@ export default function About() {
 
           <div className="relative col-span-2 col-start-2 ">
             <h3 className="my-12 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100  sm:text-4xl sm:leading-10 md:my-6 md:text-left  md:leading-14">
-              My Coding Journey
+              Mon parcours
             </h3>
             <CodingTimeline />
           </div>
         </div>
         <div className="col-span-full items-start space-y-2 pt-3 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <h3 className="col-span-2 col-start-2 mb-6 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-left md:leading-14">
-            Professional Certificates
+            Certifications professionneles
           </h3>
           <ProjectCard
-            title={"AZ-204: Developing Solutions for Microsoft Azure"}
+            title={"2002 - 2003 : Infographiste Webdesigner 3D - ARIES Grenoble"}
             description="From requirements definition and design to development, deployment, and maintenance. Use cloud DBAs, cloud administrators, and clients to implement solutions."
             links={[
               {
-                title: "View Exam Details",
-                href: "https://learn.microsoft.com/en-us/certifications/exams/az-204/",
+                title: "School website",
+                href: "https://www.aries3d.org",
               },
             ]}
-            titleLink={
-              "https://learn.microsoft.com/en-us/certifications/exams/az-204/"
-            }
-            icons={["azure"]}
-            className=" md relative col-span-2 col-start-2 w-full grow xl:w-1/2 "
-          />
+            icons={["javascript"]}
+            className=" md relative col-span-2 col-start-2 w-full grow xl:w-1/2 " titleLink={""}          />
+          <ProjectCard
+            title={"2003 - 2004 : Effets spéciaux, Intégration 3D - ARIES Grenoble"}
+            description="From requirements definition and design to development, deployment, and maintenance. Use cloud DBAs, cloud administrators, and clients to implement solutions."
+            links={[
+              {
+                title: "School website",
+                href: "https://www.aries3d.org",
+              },
+            ]}
+            icons={["javascript"]}
+            className=" md relative col-span-2 col-start-2 w-full grow xl:w-1/2 " titleLink={""}          />
         </div>
       </div>
     </div>

@@ -11,13 +11,10 @@ export function ShowcaseProjects() {
         <div>
           <div className="space-y-2 pb-8 pt-6 md:space-y-5">
             <h1 className="pb-3 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Showcase Projects
+              Petit aperçu
             </h1>
             <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-              Here are some of my favourite software engineering projects. These
-              projects are prime examples of my diverse skill set and
-              experience, demonstrating my ability to use code to solve
-              problems, and to have some fun 😊
+              Les projets sur lesquels j'ai adoré travaillé, Enjoy ! 😊
             </p>
           </div>
           <div className=" py-3">
@@ -43,7 +40,7 @@ export function ShowcaseProjects() {
           className="my-3 w-full rounded-lg bg-primary-600 p-3 text-center text-white"
           aria-label="All projects"
         >
-          View all my projects &rarr;
+          Voir tous mes projets &rarr;
         </Link>
       </div>
     </>

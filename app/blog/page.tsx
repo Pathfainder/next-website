@@ -34,23 +34,23 @@ export default async function BlogPage() {
             Blog
           </h1>
           <p className="pb-3 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pb-0">
-            Welcome to my blog, where I share my experiences and insights in the
-            world of technology. As a software engineer with a passion for
-            problem-solving and creativity, I love exploring new ideas and
-            discovering the latest trends in this rapidly changing field. In
-            this blog, I share my thoughts on various topics, from projects I
-            have worked on to emerging technologies and industry news. Join me
-            on this exciting journey and stay up-to-date with the latest
-            developments in the tech world.
+            Bienvenue voyageur! Ici tu trouveras toutes les infos utiles me concernant, les projets accomplis 
+            et ceux sur lesquels je travaille. Je suis un autodidacte de 39 ans passionné d'informatique et technoligies 
+            depuis toujours, depuis mes premiers amours pour le devellopement web jusqu'a l'arrivée en 2020 des premiers modèles
+            d'IA Générative significativement utile et ayant un potentiel d'application prommetteur.
+            Une compétition féroce et un monde de l'Open Source entré dès lors en totale ébbulition ont contibués, 4ans plus tard
+            à un niveau de compétences de ces modèles permettant un usage serieux dans le monde professionnel.
+
+
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-3 pt-6 ">
           <div className="col-span-12 col-start-1 sm:col-span-8 ">
-            <div className="flex-1 rounded-3xl bg-gradient-to-br from-blue-200 to-blue-600 p-[1px] transition duration-300 hover:shadow-2xl hover:shadow-blue-800">
+            <div className="flex-1 rounded-3xl bg-gradient-to-br from-red-400 to-purple-500 p-[1px] transition duration-300 hover:shadow-2xl hover:shadow-purple-900">
               <ul className="flex h-full flex-col justify-between divide-y divide-gray-400 rounded-3xl bg-slate-200 px-6 dark:divide-gray-700 dark:bg-slate-950">
                 {!filteredBlogPosts.length && (
-                  <p className="py-3">No posts found.</p>
+                  <p className="py-3">Pas de post trouvé..</p>
                 )}
                 {displayPosts.map((post) => {
                   const { slug, date, title, summary, tags } = post
@@ -75,7 +75,7 @@ export default async function BlogPage() {
                                       <Tag
                                         key={tag}
                                         text={tag}
-                                        className="2xl rounded-lg bg-blue-600  px-2 py-1 text-sm text-white hover:scale-110 hover:bg-blue-600 dark:bg-blue-950 "
+                                        className="2xl rounded-lg bg-purple-800  px-2 py-1 text-sm text-white hover:scale-110 hover:bg-purple-900 dark:bg-purple-950 "
                                       />
                                     ))}
                                 </div>

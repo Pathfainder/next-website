@@ -9,6 +9,20 @@ import { ShowcaseProjects } from "@/components/showcase-projects"
 export default async function Home() {
   const sortedPosts = sortedBlogPost(allBlogs) as Blog[]
   const posts = allCoreContent(sortedPosts)
+  
+
+const App: React.FC = () => {
+    return (
+        <div style={{ display: 'flex', 
+                      justifyContent: 'center', 
+                      alignItems: 'center', 
+                      height: '100vh', 
+                      backgroundColor: '#E6E6FA' }}>
+            
+        </div>
+    );
+};
+
 
   return (
     <>

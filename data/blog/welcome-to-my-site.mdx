@@ -1,140 +1,70 @@
 ---
-title: "Welcome To My Site"
-date: "2023-04-14"
-tags: ["personal", "react", "tailwind", "nextjs"]
+title: "Bienvenue !"
+date: "2024-06-28"
+tags: ["personnel", "react", "tailwind", "nextjs"]
 draft: false
-summary: "Explore my newly revamped website, a personal blog by a full-stack developer with a passion for front-end development and cloud solutions. Built using Next.js, MDX, and Tailwind CSS, this site offers insights into my experiences, emerging technologies, and industry news. Join me on his journey of learning and growth in the ever-evolving world of software engineering."
+summary: "Découvrez mon site, un blog personnel fait par un autodidacte passionné par le développement front-end et les solutions d'automatisations grace à l'intelligence artificielle et les services cloud. Construit avec Next.js, MDX, et Tailwind CSS, ce site offre des aperçus de mes expériences, des technologies émergentes et des nouvelles de l'industrie. Rejoignez-moi dans ce périple d'apprentissage et de croissance dans ce monde en constante évolution qu'est l'IA."
 ---
 
-# Welcome to My Site!
+# Bienvenue voyageur du net !
 
-Hello, everyone! My name is James Shopland, and I am thrilled to present to you my newly revamped website. As a full-stack developer with a passion for front-end
-development and cloud solutions, I am excited to use this platform as my personal blog to share my insights, experiences, and interests with you.
+Bonjour à tous ! Je m'appelle Thomas et je suis ravi de vous présenter mon site nouvellement remanié. En tant que développeur full-stack avec une passion pour le développement front-end et les solutions cloud, je suis excité d'utiliser cette plateforme comme mon blog personnel pour partager avec vous mes idées, expériences et intérêts.
 
 <div className="image-container">
   <Image
-    alt="james shopland logo"
+    alt="logo thomas"
     src="/images/blog/post-1/fullpage.png"
     width={300}
     height={50}
   />
-  <figcaption>The site font page as of writing this post</figcaption>
+  <figcaption>La page d'accueil du site au moment de la rédaction de cet article</figcaption>
 </div>
 
-## Building the Site
+## Construire le site
 
-This latest version of my site has been built using three powerful technologies: [Next.js](https://nextjs.org/), MDX, and [Tailwind](https://tailwindcss.com/).
-There are various options available, including Astro, Remix, Svelte, and Gatsby. I spent a considerable amount of time researching and testing these frameworks. While each of them has its unique features and benefits, I ultimately settled on Next.js.
-Let's dive into the reasons behind these choices and how they have contributed to creating an engaging, user-friendly experience.
+Cette dernière version de mon site a été construite en utilisant trois technologies puissantes : [Next.js](https://nextjs.org/), MDX et [Tailwind](https://tailwindcss.com/).
+Il existe diverses options, y compris Astro, Remix, Svelte et Gatsby. J'ai passé un temps considérable à rechercher et tester ces frameworks. Bien que chacun d'entre eux ait ses caractéristiques et avantages uniques, j'ai finalement opté pour Next.js. Explorons les raisons derrière ces choix et comment ils ont contribué à créer une expérience engageante et conviviale.
 
-### Next.js: A Popular and Versatile Framework
+### Next.js : Un framework populaire et polyvalent
 
-In my quest to explore different frameworks and stay up-to-date with industry trends, I decided to use
-[Next.js](https://nextjs.org/) for my website. As a widely adopted and well-supported framework, [Next.js](https://nextjs.org/) allows me to leverage
-my existing familiarity with React and the thriving community behind it. I am particularly excited about
-the upcoming introduction of React Server Components, which will further enhance [Next.js](https://nextjs.org/) capabilities.
+Dans ma quête d'explorer différents frameworks et de rester à jour avec les tendances de l'industrie, j'ai décidé d'utiliser [Next.js](https://nextjs.org/) pour mon site web. En tant que framework largement adopté et bien soutenu, [Next.js](https://nextjs.org/) me permet de tirer parti de ma familiarité existante avec React et de la communauté florissante derrière lui. Je suis particulièrement enthousiaste à l'idée de l'introduction prochaine des composants serveur React, qui amélioreront encore les capacités de [Next.js](https://nextjs.org/).
 
-Additionally, [Next.js](https://nextjs.org/) has a solid foundation with a large user base, ensuring its continued support and evolution. As a developer who enjoys working with React, Next.js provides a seamless transition to a more feature-rich environment. Moreover, I am looking forward to experimenting with edge functions on Vercel, which will allow me to optimize my site's performance and deliver an even better user experience.
+De plus, [Next.js](https://nextjs.org/) a une solide fondation avec une grande base d'utilisateurs, garantissant son soutien et son évolution continus. En tant que développeur qui aime travailler avec React, Next.js offre une transition fluide vers un environnement plus riche en fonctionnalités. De plus, j'ai hâte d'expérimenter avec les fonctions edge sur Vercel, ce qui me permettra d'optimiser les performances de mon site et de fournir une meilleure expérience utilisateur.
 
-### MDX: A Powerful Combination of Markdown and JSX
+### MDX : Une combinaison puissante de Markdown et JSX
 
-After exploring several CMS options, such as Sanity, I ultimately chose to use MDX, hosted locally, as the format for my blog posts and future content.
-MDX is a powerful combination of Markdown and JSX, which allows me to write my posts using Markdown's simplicity while still having the flexibility
-to include React components when needed.
-This makes it a perfect choice for creating content-rich blog posts with custom styling and interactive elements.
+Après avoir exploré plusieurs options CMS, telles que Sanity, j'ai finalement choisi d'utiliser MDX, hébergé localement, comme format pour mes articles de blog et futurs contenus. MDX est une combinaison puissante de Markdown et JSX, ce qui me permet d'écrire mes articles en utilisant la simplicité du Markdown tout en ayant la flexibilité d'inclure des composants React lorsque nécessaire. Cela en fait un choix parfait pour créer des articles de blog riches en contenu avec un style personnalisé et des éléments interactifs.
 
-My implemetation is using [mdx-bundler](https://github.com/kentcdodds/mdx-bundler). This allows me to compile and bundle my MDX files and their dependencies.
-It allows me to write markdown using imports like below. This is great for demo's in blog posts!
+Mon implémentation utilise [mdx-bundler](https://github.com/kentcdodds/mdx-bundler). Cela me permet de compiler et de regrouper mes fichiers MDX et leurs dépendances. Cela me permet d'écrire du markdown en utilisant des imports comme ci-dessous. C'est génial pour les démonstrations dans les articles de blog !
 
 ```mdx
 import Demo from "./demo"
 
-Here's a **neat** demo:
+Voici une **démonstration** intéressante :
 
 <Demo />
 ```
 
-### Tailwind: A Utility-First CSS Framework
+### Tailwind : Un framework CSS basé sur les utilitaires
+Pour le design visuel de mon site, j'ai choisi de continuer à utiliser Tailwind CSS, un framework CSS basé sur les utilitaires que j'apprécie depuis longtemps. La flexibilité et la facilité d'utilisation de Tailwind me permettent de styliser rapidement les composants, de maintenir la cohérence sur tout le site et de créer des designs réactifs et visuellement attrayants. L'expérience exceptionnelle pour les développeurs qu'il offre m'a rendu réticent à changer de framework.
 
-For the visual design of my site, I chose to continue using [Tailwind](https://tailwindcss.com/) CSS, a utility-first CSS framework that I've grown fond of over time. [Tailwind](https://tailwindcss.com/)'s flexibility and ease of use enable me to quickly style components, maintain consistency across the site, and create visually appealing, responsive designs. The exceptional developer experience it offers has made me reluctant to switch to other frameworks.
+Tailwind CSS a gagné une traction significative dans le monde du CSS, et pour de bonnes raisons. Son approche intuitive du style simplifie le processus de création de sites web esthétiquement plaisants, en faisant un choix populaire parmi les développeurs. En tant qu'utilisateur de longue date de Tailwind, je suis ravi de montrer ses capacités sur mon site et de continuer à créer des expériences web époustouflantes.
 
-[Tailwind](https://tailwindcss.com/) CSS has gained significant traction in the CSS world, and for good reason. Its intuitive approach to styling simplifies the process of building aesthetically pleasing websites, making it a popular choice among developers. As a long-time user of [Tailwind](https://tailwindcss.com/), I am excited to showcase its capabilities on my site and continue creating stunning web experiences.
+### Fonctionnalités intéressantes
+Dans cette dernière version de mon site, j'ai ajouté plusieurs fonctionnalités intéressantes que je suis impatient de partager avec vous :
 
-### Cool features
+Mode clair et sombre : Pour répondre aux préférences des utilisateurs, mon site propose désormais des modes clair et sombre pour une expérience de lecture confortable.
+Optimisation des images : Pour garantir des temps de chargement rapides et des performances optimales, toutes les images du site ont été optimisées sans compromettre la qualité.
+Icônes 3D créées par moi avec Blender : Ajoutant une touche personnelle, j'ai conçu des icônes 3D uniques en utilisant Blender, qui sont présentées sur tout le site.
+Barre de recherche utilisant kbar : Inspiré par la fonction Spotlight de macOS, j'ai implémenté une barre de recherche en utilisant kbar qui permet aux utilisateurs de naviguer rapidement et facilement sur le site. Essayez-la avec Ctrl/⌘ + K.
+Section À propos de moi avec une chronologie : Apprenez à mieux me connaître en explorant la section 'À propos de moi', qui présente une chronologie de mon parcours de codage, mettant en avant des étapes et des réalisations importantes.
+À venir
+Dans un avenir proche, j'ai prévu d'améliorer encore mon site avec des fonctionnalités supplémentaires. Voici un aperçu de ce qui est à venir :
 
-In this latest version of my site, I've added several exciting features that I am eager to share with you:
-
-- **Light and Dark mode**: Catering to various user preferences, my site now offers both light and dark modes for a comfortable reading experience.
-- **Image optimization**: To ensure fast loading times and optimal performance, all images on the site have been optimized without compromising on quality.
-- **3D icons made by me in Blender**: Adding a personal touch, I've designed unique 3D icons using Blender, which are showcased throughout the site.
-- **Search bar using kbar**: Inspired by macOS's Spotlight feature, I've implemented a search bar using [kbar](https://kbar.vercel.app/) that allows users to quickly and easily navigate the site. Try it out with Ctrl/⌘ + K
-- **About me section with a timeline**: Get to know me better by exploring the 'About me' section, which features a timeline of my coding journey, highlighting milestones and accomplishments along the way.
-
-### More to come
-
-In the near future, I have plans to further enhance my site with additional improvements and features. Here's a sneak peek at what's to come:
-
-- **Performance optimizations**: Ensuring the best user experience, I am committed to maintaining excellent accessibility, SEO, and performance scores on the site.
-- **Framer Motion**: I am exploring the possibility of using Framer Motion to introduce more animations and fluidity, making the site even more engaging and visually appealing.
-- **Playground**: As a space to bookmark and showcase random code snippets I come across, I am considering adding a 'Playground' section to the site, which would allow me to easily refer back to them and share them with others.
-- **Bookmarks**: Since I haven't yet found the perfect solution for bookmarking all the cool sites I discover, I may create a dedicated page on my site to collect and share these resources. This would not only help me keep track of them but also allow you to explore some fantastic sites.
-  Stay tuned for these upcoming
-
-## My Personal Blog: A Journey of Learning and Growth
-
-This website will serve as my personal blog, where I will share my learnings and experiences throughout my career as a software engineer. I will discuss a range of topics, from projects I have worked on to emerging technologies and industry news. As a developer, I am constantly seeking new challenges and opportunities to learn and grow, and this blog will be a reflection of that journey.
-
-### The Evolution of My Site
-
-This is not the first iteration of my site. In fact, it has gone through several transformations.
-
-#### Version 1
-
-Written in pure HTML and CSS, was used when I was just a beginner and didnt think I needed a fancy framework
-to make a cool landing page!
-
-<div className="image-container">
-  <Image
-    alt="james shopland site version one"
-    src="/images/blog/post-1/v1.png"
-    width={300}
-    height={50}
-  />
-  <figcaption>Version 1 of the site, using a grid layout</figcaption>
-</div>
-
-#### Version 2
-
-At this point I had learnt React and wanted to create a site with great performance to showcase some of my skills. To achieve this I settled on [Gatsby](https://www.gatsbyjs.com/), to generate a static site.
-
-<div className="image-container">
-  <Image
-    alt="james shopland logo"
-    src="/images/blog/post-1/v2.png"
-    width={300}
-    height={50}
-  />
-  <figcaption>
-    Version 2 of the site, the starry background was animated
-  </figcaption>
-</div>
-
-#### Version 3
-
-The site before this one, I had learnt [Svelte](https://svelte.dev/) and wanted to redo my site using it. It featured some cool animations that I unfortunately cant screenshot. The animations were reactive and allowed users to drag and throw icons around the screen.
-
-<div className="image-container">
-  <Image
-    alt="james shopland logo"
-    src="/images/blog/post-1/v3.png"
-    width={300}
-    height={50}
-  />
-  <figcaption>
-    Version 3 of the site, a lot of the elements were animated and not
-    screenshotted :(
-  </figcaption>
-</div>
-## Conclusion
-
-Thank you for joining me on this journey, and I hope you find my blog insightful and engaging. I am excited to share my thoughts and experiences with you and look forward to hearing your feedback. Stay tuned for more content, and don't hesitate to reach out if you have any questions or suggestions. Happy reading!
+### Optimisations des performances : 
+Pour garantir la meilleure expérience utilisateur, je m'engage à maintenir d'excellents scores d'accessibilité, de référencement et de performance sur le site.
+Framer Motion : J'explore la possibilité d'utiliser Framer Motion pour introduire plus d'animations et de fluidité, rendant le site encore plus engageant et visuellement attrayant.
+Playground : En tant qu'espace pour marquer et montrer des extraits de code aléatoires que je trouve, je considère ajouter une section 'Playground' au site, ce qui me permettrait de les référer facilement et de les partager avec les autres.
+Signets : Comme je n'ai pas encore trouvé la solution parfaite pour marquer tous les sites intéressants que je découvre, je pourrais créer une page dédiée sur mon site pour collecter et partager ces ressources. Cela m'aiderait non seulement à les garder en mémoire, mais vous permettrait également d'explorer des sites fantastiques. Restez à l'écoute pour ces prochaines nouveautés.
+Mon blog personnel : Un voyage d'apprentissage et de croissance
+Ce site servira de blog personnel, où je partagerai mes apprentissages et expériences tout au long de ma carrière d'ingénieur logiciel. Je discuterai d'une gamme de sujets, des projets sur lesquels j'ai travaillé aux technologies émergentes et aux nouvelles de l'industrie. En tant que développeur, je cherche constamment de nouveaux défis et opportunités pour apprendre et grandir, et ce blog sera le reflet de ce voyage.

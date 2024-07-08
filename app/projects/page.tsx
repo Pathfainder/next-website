@@ -12,15 +12,12 @@ export default async function Projects() {
     <div className="container divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Projects
+          Projets
         </h1>
         <p className="text-lg leading-7 text-gray-700 dark:text-gray-400">
-          Welcome to my projects page, where I showcase some of my software
-          engineering projects. From building web apps with TypeScript and react
-          to developing Java plugins for game, my projects demonstrate my
-          diverse skill set and experience. Explore my work work and get a
-          glimpse into my passion for problem-solving and creativity in the
-          rapidly changing field of technology.
+          Vous trouverez ici les différents projets en cours ou terminé sur lesquels je travaille. 
+          Autodidacte, passionné et en constant apprentissage, j'étudie et partage avec vous les différents 
+          domaines de l'intelligence artificielle. Have fun ! 🤓
         </p>
       </div>
       <div className=" pt-12">
