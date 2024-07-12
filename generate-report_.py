@@ -2,7 +2,7 @@ from gpt_researcher import GPTResearcher
 import asyncio
 import os
 
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 QUERY = "latest python amazing ai libraries"
 REPORT_TYPE = "research_report"
