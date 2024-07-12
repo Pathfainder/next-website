@@ -7,7 +7,7 @@ from gpt_researcher import GPTResearcher
 # Set the encoding to UTF-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 os.environ["USER_AGENT"] = "tonton"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 async def fetch_report(query, report_type):
     try:
